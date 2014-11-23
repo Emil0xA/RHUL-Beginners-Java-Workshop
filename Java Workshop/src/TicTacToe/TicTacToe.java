@@ -4,6 +4,10 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
+ * A Tic-Tac-Toe program.
+ * Written in an non-object-oriented manner. Classes / Objects are not taught yet. 
+ * 
+ * Array.length is used quite often. The objective is to let the students get a hang of arrays.
  * 
  * References: 
  * http://www.ntu.edu.sg/home/ehchua/programming/java/JavaGame_TicTacToe.html
