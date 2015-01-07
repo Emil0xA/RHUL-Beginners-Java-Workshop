@@ -16,7 +16,7 @@ Even if you are not considering a technological path, programming is a great way
  - [Absolute Java]
 
 #### Class Web page
- - http://computingsociety.co.uk/classes/java-14-autumn/
+ - http://computingsociety.co.uk/classes/java-14-15/
  - http://computingsociety.co.uk/classes/java-13-autumn/
 
 [Big Java: for Java 7 and 8]: http://www.amazon.co.uk/Big-Java-For/dp/047055309X/
