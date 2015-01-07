@@ -6,7 +6,10 @@ package RockPaperScissors;
  * @author Emil Tan
  */
 public class Player {
-	private String playerName; 
+	/** Player's name */
+	private String playerName;
+	
+	/** Player's score */
 	private int playerScore; 
 	
 	/**
@@ -29,7 +32,7 @@ public class Player {
 	}
 	
 	/**
-	 * Add score to player's overall scores.
+	 * Add score to player's overall score.
 	 * 
 	 * @param score Score to add.
 	 */
@@ -38,7 +41,7 @@ public class Player {
 	}
 	
 	/**
-	 * Retrieve scores of the player.
+	 * Retrieve score of the player.
 	 * 
 	 * @return Player's score.
 	 */
