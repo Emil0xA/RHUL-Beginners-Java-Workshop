@@ -29,26 +29,29 @@ public class StaticRPS {
 	}
 	
 	public static void checkWinning(int playersPlay, int aiPlay) {
+		boolean won = false; 
+		
 		if(playersPlay == aiPlay) {
 			System.out.println("It's a tie");
+			return; 
 		} else if(playersPlay == ROCK) {
-			if(aiPlay == PAPER) {
-				System.out.println("You lost :(");
-			} else if(aiPlay == SCISSORS) {
-				System.out.println("You won! :D");
+			if(aiPlay == SCISSORS) {
+				won = true; 
 			}
 		} else if(playersPlay == PAPER) {
 			if(aiPlay == ROCK) {
-				System.out.println("You won! :D");
-			} else if(aiPlay == SCISSORS) {
-				System.out.println("You lost :(");
+				won = true; 
 			}
 		} else if(playersPlay == SCISSORS) {
-			if(aiPlay == ROCK) {
-				System.out.println("You lost :(");
-			} else if(aiPlay == PAPER) {
-				System.out.println("You won! :D");
+			if(aiPlay == PAPER) {
+				won = true; 
 			}
+		}
+		
+		if(won) {
+			System.out.println("You won! :D");
+		} else {
+			System.out.println("You lost :(");
 		}
 	}
 
