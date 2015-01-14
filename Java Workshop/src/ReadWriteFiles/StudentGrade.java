@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 import java.util.Scanner;
 
 /**
- * Add line no. to a file. 
+ * Add grades to students file. 
  * 
  * Reference: 
  * Cay S. Horstmann. Big Java, 4th Edition, John Wiley & Sons. Feb, 2010 - Chapter 10.1 Reading and Writing Text Files
