@@ -34,12 +34,12 @@ public class StudentNumberer {
 					lineNum++; 
 				}
 
-				in.close();
 				out.close();
 				System.out.println("--- Done ---");
 			} catch(FileNotFoundException e) {
 				System.out.println("Error occurred when writing to file " + outputFilename);
-			}
+			} 
+			in.close();
 		} catch(FileNotFoundException e) {
 			System.out.println("Error: Unable to open file " + inputFilename); 
 		}

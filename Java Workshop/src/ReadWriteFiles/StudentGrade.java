@@ -50,7 +50,7 @@ public class StudentGrade {
 				out.close();
 			} catch(FileNotFoundException e) {
 				System.out.println("Error occurred when writing to file " + outputFilename);
-			}
+			} 
 			
 			studentIn.close();
 			gradeIn.close(); 
