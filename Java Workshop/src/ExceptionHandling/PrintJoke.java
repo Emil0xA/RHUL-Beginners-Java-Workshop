@@ -2,6 +2,7 @@ package ExceptionHandling;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
@@ -44,12 +45,12 @@ public class PrintJoke {
 			}
 			
 			fileIn.close(); 
+		} catch(InputMismatchException e) {
+			System.out.println("Error: Please enter an integer.");
 		} catch(IllegalArgumentException e) {
 			System.out.println(e.getMessage());
-		} catch(ExpectIntException e) {
-			System.out.println(e.getMessage());
 		} catch(FileNotFoundException e) {
-			System.out.println();
+			System.out.println("The file containing the joke does not exist. Please contact the programmer.");
 		} catch(Exception e) {
 			System.out.println("Something bad happened... Exiting... ");
 		} finally {
